@@ -1,0 +1,30 @@
+{
+  "name": "electron-first-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "parcel-dev": "parcel ./src/index.html -d build/",
+    "electron-dev": "ELECTRON_START_URL=http://localhost:1234 electron .",
+    "build": "parcel build ./src/index.html -d build/ --public-url ./",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^2.0.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-vue": "^2.0.2",
+    "electron": "^2.0.3",
+    "electron-bundler": "0.0.0-alpha.0.0",
+    "electron-reload": "^1.2.5",
+    "parcel-bundler": "^1.9.4",
+    "vue-template-compiler": "^2.5.16"
+  },
+  "dependencies": {
+    "vue": "^2.5.16",
+    "vue-hot-reload-api": "^2.3.0"
+  }
+}
