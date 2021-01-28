@@ -17,7 +17,7 @@
     "@vue/component-compiler-utils": "^2.0.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-vue": "^2.0.2",
-    "electron": "^2.0.8",
+    "electron": "^9.4.0",
     "electron-bundler": "0.0.0-alpha.0.0",
     "electron-reload": "^1.2.5",
     "parcel-bundler": "^1.10.0",
